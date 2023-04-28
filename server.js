@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.listen(port, () => {
-  console.log(`Server listening at http://localhost:${port}`);
+  console.log(`Servidor escuchando en http://localhost:${port}`);
 });
 
 app.post('/api/business-card', (req, res) => {
